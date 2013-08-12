@@ -1,0 +1,10 @@
+#!/bin/sh
+
+sudo apt-get install git build-essential libgtk2.0-dev libwxgtk2.8-dev libwx-perl libmodule-build-perl libnet-dbus-perl
+sudo apt-get install cpanminus
+sudo apt-get install curl
+curl -L http://cpanmin.us | perl - --sudo App::cpanminus
+sudo apt-get install libwx-perl
+sudo cpanm Boost::Geometry::Utils Math::Clipper Math::ConvexHull Math::ConvexHull::MonotoneChain Math::Geometry::Voronoi Math::PlanePath Moo Wx
+sudo usermod -a -G dialout $LOGNAME
+sudo apt-get install mono-devel

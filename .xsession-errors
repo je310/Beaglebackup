@@ -1,0 +1,139 @@
+/etc/gdm/Xsession: Beginning session setup...
+/etc/gdm/Xsession: Setup done, will execute: /usr/bin/ssh-agent -- gnome-session
+GNOME_KEYRING_CONTROL=/tmp/keyring-SPokmS
+GPG_AGENT_INFO=/tmp/keyring-SPokmS/gpg:0:1
+GNOME_KEYRING_PID=548
+GNOME_KEYRING_CONTROL=/tmp/keyring-SPokmS
+GPG_AGENT_INFO=/tmp/keyring-SPokmS/gpg:0:1
+GNOME_KEYRING_CONTROL=/tmp/keyring-SPokmS
+GPG_AGENT_INFO=/tmp/keyring-SPokmS/gpg:0:1
+SSH_AUTH_SOCK=/tmp/keyring-SPokmS/ssh
+GNOME_KEYRING_CONTROL=/tmp/keyring-SPokmS
+GPG_AGENT_INFO=/tmp/keyring-SPokmS/gpg:0:1
+SSH_AUTH_SOCK=/tmp/keyring-SPokmS/ssh
+
+** (gnome-settings-daemon:551): WARNING **: Failed to connect context: OK
+Error: No calibratable devices found.
+Unable to open desktop file evolution.desktop for panel launcher
+
+(gdu-notification-daemon:584): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+
+(gdu-notification-daemon:584): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+
+(gdu-notification-daemon:584): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+
+(gdu-notification-daemon:584): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+
+(gdu-notification-daemon:584): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+Xlib:  extension "DPMS" missing on display ":0".
+GLib-GIO-Message: Using the 'memory' GSettings backend.  Your settings will not be saved or shared with other applications.
+
+(gdu-notification-daemon:584): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+
+** (gedit:677): WARNING **: Could not load theme icon gtk-home: Icon 'gtk-home' not present in theme
+
+(gedit:677): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+** (gedit:705): WARNING **: Could not load theme icon gtk-home: Icon 'gtk-home' not present in theme
+
+(gedit:705): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)
+**
+metacity:ERROR:ui/ui.c:752:meta_ui_get_default_window_icon: assertion failed: (default_icon)

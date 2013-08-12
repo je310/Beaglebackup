@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="y_resolution" mtime="946687055" type="int" value="120"/>
+	<entry name="x_resolution" mtime="946687055" type="int" value="160"/>
+	<entry name="camera" mtime="946686270" type="string">
+		<stringvalue>/dev/video0</stringvalue>
+	</entry>
+	<entry name="countdown" mtime="946687036" type="bool" value="true"/>
+</gconf>

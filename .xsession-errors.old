@@ -1,0 +1,60 @@
+/etc/gdm/Xsession: Beginning session setup...
+/etc/gdm/Xsession: Setup done, will execute: /usr/bin/ssh-agent -- gnome-session
+GNOME_KEYRING_CONTROL=/tmp/keyring-ig7ZZS
+GNOME_KEYRING_PID=542
+GNOME_KEYRING_CONTROL=/tmp/keyring-ig7ZZS
+GPG_AGENT_INFO=/tmp/keyring-ig7ZZS/gpg:0:1
+GNOME_KEYRING_CONTROL=/tmp/keyring-ig7ZZS
+GPG_AGENT_INFO=/tmp/keyring-ig7ZZS/gpg:0:1
+SSH_AUTH_SOCK=/tmp/keyring-ig7ZZS/ssh
+GNOME_KEYRING_CONTROL=/tmp/keyring-ig7ZZS
+GPG_AGENT_INFO=/tmp/keyring-ig7ZZS/gpg:0:1
+SSH_AUTH_SOCK=/tmp/keyring-ig7ZZS/ssh
+
+** (gnome-settings-daemon:545): WARNING **: Failed to connect context: OK
+Unable to open desktop file evolution.desktop for panel launcher
+Error: No calibratable devices found.
+
+(gdu-notification-daemon:575): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+
+(gdu-notification-daemon:575): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+
+(gdu-notification-daemon:575): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+
+(gdu-notification-daemon:575): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+
+(gdu-notification-daemon:575): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+Xlib:  extension "DPMS" missing on display ":0".
+GLib-GIO-Message: Using the 'memory' GSettings backend.  Your settings will not be saved or shared with other applications.
+
+(gdu-notification-daemon:575): libgdu-WARNING **: unhandled property 'DeviceAutomountHint'
+
+(gimp-2.6:613): GLib-WARNING **: goption.c:2179: ignoring no-arg, optional-arg or filename flags (8) on option of arg-type 0 in entry (null):debug-handlers
+
+** (gedit:772): WARNING **: Could not load theme icon gtk-home: Icon 'gtk-home' not present in theme
+
+(gedit:772): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+** (gedit:772): CRITICAL **: gedit_spell_checker_language_to_key: assertion `lang != NULL' failed
+
+** (gedit:772): CRITICAL **: gedit_spell_checker_language_to_key: assertion `lang != NULL' failed
+
+** (gedit:772): CRITICAL **: gedit_spell_checker_language_to_key: assertion `lang != NULL' failed
+
+** (gedit:772): CRITICAL **: gedit_spell_checker_language_to_key: assertion `lang != NULL' failed
+
+** (gedit:772): CRITICAL **: gedit_spell_checker_language_to_key: assertion `lang != NULL' failed
+
+** (gedit:772): CRITICAL **: gedit_spell_checker_language_to_key: assertion `lang != NULL' failed
+
+** (gedit:772): CRITICAL **: gedit_spell_checker_language_to_key: assertion `lang != NULL' failed
+
+** (gedit:772): CRITICAL **: gedit_spell_checker_language_to_key: assertion `lang != NULL' failed
+
+** (gedit:772): CRITICAL **: gedit_spell_checker_language_to_key: assertion `lang != NULL' failed
+GConf Error: Configuration server couldn't be contacted: D-BUS error: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+The application 'gnome-session' lost its connection to the display :0;
+most likely the X server was shut down or you killed/destroyed
+the application.
+gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Window manager warning: Fatal IO error 11 (Resource temporarily unavailable) on display ':0'.

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="virtual_root" mtime="946687092" type="string">
+		<stringvalue>file:///home/root/repitier/RepetierHost</stringvalue>
+	</entry>
+	<entry name="root" mtime="946687092" type="string">
+		<stringvalue>file:///</stringvalue>
+	</entry>
+	<entry name="tree_view" mtime="946687092" type="bool" value="true"/>
+</gconf>

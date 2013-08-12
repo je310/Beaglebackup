@@ -1,0 +1,209 @@
+###############################################################
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  **  WARNING  **  WARNING  **  WARNING  **  WARNING  **   @#
+#@                                                           @#
+#@        YOU ARE RUNNING X11VNC WITHOUT A PASSWORD!!        @#
+#@                                                           @#
+#@  This means anyone with network access to this computer   @#
+#@  may be able to view and control your desktop.            @#
+#@                                                           @#
+#@ >>> If you did not mean to do this Press CTRL-C now!! <<< @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  You can create an x11vnc password file by running:       @#
+#@                                                           @#
+#@       x11vnc -storepasswd password /path/to/passfile      @#
+#@  or   x11vnc -storepasswd /path/to/passfile               @#
+#@  or   x11vnc -storepasswd                                 @#
+#@                                                           @#
+#@  (the last one will use ~/.vnc/passwd)                    @#
+#@                                                           @#
+#@  and then starting x11vnc via:                            @#
+#@                                                           @#
+#@      x11vnc -rfbauth /path/to/passfile                    @#
+#@                                                           @#
+#@  an existing ~/.vnc/passwd file from another VNC          @#
+#@  application will work fine too.                          @#
+#@                                                           @#
+#@  You can also use the -passwdfile or -passwd options.     @#
+#@  (note -passwd is unsafe if local users are not trusted)  @#
+#@                                                           @#
+#@  Make sure any -rfbauth and -passwdfile password files    @#
+#@  cannot be read by untrusted users.                       @#
+#@                                                           @#
+#@  Use x11vnc -usepw to automatically use your              @#
+#@  ~/.vnc/passwd or ~/.vnc/passwdfile password files.       @#
+#@  (and prompt you to create ~/.vnc/passwd if neither       @#
+#@  file exists.)  Under -usepw, x11vnc will exit if it      @#
+#@  cannot find a password to use.                           @#
+#@                                                           @#
+#@                                                           @#
+#@  Even with a password, the subsequent VNC traffic is      @#
+#@  sent in the clear.  Consider tunnelling via ssh(1):      @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/#tunnelling            @#
+#@                                                           @#
+#@  Or using the x11vnc SSL options: -ssl and -stunnel       @#
+#@                                                           @#
+#@  Please Read the documention for more info about          @#
+#@  passwords, security, and encryption.                     @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/faq.html#faq-passwd    @#
+#@                                                           @#
+#@  To disable this warning use the -nopw option, or put     @#
+#@  'nopw' on a line in your ~/.x11vncrc file.               @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+###############################################################
+01/01/2000 00:16:03 x11vnc version: 0.9.13 lastmod: 2011-08-10  pid: 518
+01/01/2000 00:16:03 Using X display :0
+01/01/2000 00:16:03 rootwin: 0x46 reswin: 0x800001 dpy: 0x3bd120
+01/01/2000 00:16:03 
+01/01/2000 00:16:03 ------------------ USEFUL INFORMATION ------------------
+01/01/2000 00:16:03 X DAMAGE available on display, using it for polling hints.
+01/01/2000 00:16:03   To disable this behavior use: '-noxdamage'
+01/01/2000 00:16:03 
+01/01/2000 00:16:03   Most compositing window managers like 'compiz' or 'beryl'
+01/01/2000 00:16:03   cause X DAMAGE to fail, and so you may not see any screen
+01/01/2000 00:16:03   updates via VNC.  Either disable 'compiz' (recommended) or
+01/01/2000 00:16:03   supply the x11vnc '-noxdamage' command line option.
+01/01/2000 00:16:03 
+01/01/2000 00:16:03 Wireframing: -wireframe mode is in effect for window moves.
+01/01/2000 00:16:03   If this yields undesired behavior (poor response, painting
+01/01/2000 00:16:03   errors, etc) it may be disabled:
+01/01/2000 00:16:03    - use '-nowf' to disable wireframing completely.
+01/01/2000 00:16:03    - use '-nowcr' to disable the Copy Rectangle after the
+01/01/2000 00:16:03      moved window is released in the new position.
+01/01/2000 00:16:03   Also see the -help entry for tuning parameters.
+01/01/2000 00:16:03   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+01/01/2000 00:16:03   repaint the screen, also see the -fixscreen option for
+01/01/2000 00:16:03   periodic repaints.
+01/01/2000 00:16:03 
+01/01/2000 00:16:03 XFIXES available on display, resetting cursor mode
+01/01/2000 00:16:03   to: '-cursor most'.
+01/01/2000 00:16:03   to disable this behavior use: '-cursor arrow'
+01/01/2000 00:16:03   or '-noxfixes'.
+01/01/2000 00:16:03 using XFIXES for cursor drawing.
+01/01/2000 00:16:03 GrabServer control via XTEST.
+Xlib:  extension "RECORD" missing on display ":0".
+01/01/2000 00:16:03 
+01/01/2000 00:16:03 The RECORD X extension was not found on the display.
+01/01/2000 00:16:03 If your system has disabled it by default, you can
+01/01/2000 00:16:03 enable it to get a nice x11vnc performance speedup
+01/01/2000 00:16:03 for scrolling by putting this into the "Module" section
+01/01/2000 00:16:03 of /etc/X11/xorg.conf or /etc/X11/XF86Config:
+01/01/2000 00:16:03 
+01/01/2000 00:16:03   Section "Module"
+01/01/2000 00:16:03   ...
+01/01/2000 00:16:03       Load    "record"
+01/01/2000 00:16:03   ...
+01/01/2000 00:16:03   EndSection
+01/01/2000 00:16:03 
+01/01/2000 00:16:03 
+01/01/2000 00:16:03 XKEYBOARD: number of keysyms per keycode 6 is greater
+01/01/2000 00:16:03   than 4 and 2 keysyms are mapped above 4.
+01/01/2000 00:16:03   Automatically switching to -xkb mode.
+01/01/2000 00:16:03   If this makes the key mapping worse you can
+01/01/2000 00:16:03   disable it with the "-noxkb" option.
+01/01/2000 00:16:03   Also, remember "-remap DEAD" for accenting characters.
+01/01/2000 00:16:03 
+01/01/2000 00:16:03 X FBPM extension not supported.
+Xlib:  extension "DPMS" missing on display ":0".
+01/01/2000 00:16:03 X display is not capable of DPMS.
+01/01/2000 00:16:03 --------------------------------------------------------
+01/01/2000 00:16:03 
+01/01/2000 00:16:03 Default visual ID: 0x21
+01/01/2000 00:16:04 Read initial data from X display into framebuffer.
+01/01/2000 00:16:04 initialize_screen: fb_depth/fb_bpp/fb_Bpl 16/16/2048
+01/01/2000 00:16:04 
+01/01/2000 00:16:04 X display :0 is 16bpp depth=16 true color
+01/01/2000 00:16:04 
+01/01/2000 00:16:04 Autoprobing TCP port 
+01/01/2000 00:16:04 Autoprobing selected port 5900
+01/01/2000 00:16:04 Listening also on IPv6 port 5900 (socket 6)
+01/01/2000 00:16:04 fb read rate: 17 MB/sec
+01/01/2000 00:16:04 The X server says there are 10 mouse buttons.
+01/01/2000 00:16:04 screen setup finished.
+01/01/2000 00:16:04 
+01/01/2000 00:16:04 WARNING: You are running x11vnc WITHOUT a password.  See
+01/01/2000 00:16:04 WARNING: the warning message printed above for more info.
+01/01/2000 00:16:04 
+
+The VNC desktop is:      beaglebone:0
+
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+
+    x11vnc -ncache 10 ...
+
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+
+01/01/2000 00:16:15 Got connection from client 192.168.7.1
+01/01/2000 00:16:15   other clients:
+01/01/2000 00:16:15 Disabled X server key autorepeat.
+01/01/2000 00:16:15   to force back on run: 'xset r on' (3 times)
+01/01/2000 00:16:15 incr accepted_client=1 for 192.168.7.1:55827  sock=7
+01/01/2000 00:16:15 Client Protocol Version 3.8
+01/01/2000 00:16:15 Protocol version sent 3.8, using 3.8
+01/01/2000 00:16:15 rfbProcessClientSecurityType: executing handler for type 1
+01/01/2000 00:16:15 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+01/01/2000 00:16:15 client useCopyRect: 192.168.7.1 0
+01/01/2000 00:16:15 client_set_net: 192.168.7.1  0.1199
+01/01/2000 00:16:15 created   xdamage object: 0x800024
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000016)
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x0000000F)
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC9)
+01/01/2000 00:16:16 Enabling full-color cursor updates for client 192.168.7.1
+01/01/2000 00:16:16 Enabling NewFBSize protocol extension for client 192.168.7.1
+01/01/2000 00:16:16 Using ZRLE encoding for client 192.168.7.1
+01/01/2000 00:16:16 Pixel format for client 192.168.7.1:
+01/01/2000 00:16:16   8 bpp, depth 8
+01/01/2000 00:16:16   uses a colour map (not true colour).
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000016)
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x0000000F)
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC9)
+01/01/2000 00:16:16 Enabling full-color cursor updates for client 192.168.7.1
+01/01/2000 00:16:16 Enabling NewFBSize protocol extension for client 192.168.7.1
+01/01/2000 00:16:16 Switching from ZRLE to raw Encoding for client 192.168.7.1
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x0000000F)
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000016)
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+01/01/2000 00:16:16 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC9)
+01/01/2000 00:16:16 Enabling full-color cursor updates for client 192.168.7.1
+01/01/2000 00:16:16 Enabling NewFBSize protocol extension for client 192.168.7.1
+01/01/2000 00:16:16 Switching from raw to hextile Encoding for client 192.168.7.1
+01/01/2000 00:16:16 Pixel format for client 192.168.7.1:
+01/01/2000 00:16:16   16 bpp, depth 16, little endian
+01/01/2000 00:16:16   true colour: max r 31 g 63 b 31, shift r 11 g 5 b 0
+01/01/2000 00:16:16 no translation needed
+01/01/2000 00:16:16 client 1 network rate 241.4 KB/sec (241.4 eff KB/sec)
+01/01/2000 00:16:16 client 1 latency:  1.0 ms
+01/01/2000 00:16:16 dt1: 0.0065, dt2: 0.0636 dt3: 0.0010 bytes: 16798
+01/01/2000 00:16:16 link_rate: LR_UNKNOWN - 1 ms, 241 KB/s
+01/01/2000 00:16:16 copy_tiles: allocating first_line at size 33
+01/01/2000 00:16:30 created selwin: 0x800025
+01/01/2000 00:16:30 called initialize_xfixes()
+01/01/2000 00:16:31 Battling with something for -norepeat!! (1 resets left)
+01/01/2000 00:16:31 Disabled X server key autorepeat.
+01/01/2000 00:16:31   to force back on run: 'xset r on' (2 times)
+01/01/2000 00:16:33 Battling with something for -norepeat!! (0 resets left)
+01/01/2000 00:16:33 Disabled X server key autorepeat.
+01/01/2000 00:16:33   to force back on run: 'xset r on' (1 times)
+01/01/2000 00:17:07 cursor_noshape_updates_clients: 0
+01/01/2000 00:17:08 cursor_noshape_updates_clients: 0
+01/01/2000 00:21:22 cursor_noshape_updates_clients: 0
+01/01/2000 00:21:27 idle keyboard:   turning X autorepeat back on.
+01/01/2000 00:23:05 cursor_noshape_updates_clients: 0
+01/01/2000 00:23:07 cursor_noshape_updates_clients: 0
+01/01/2000 00:26:07 active keyboard: waiting until all keys are up. key_down=37 Control_L.  If the key is inaccessible via keyboard, consider 'x11vnc -R clear_all'
+01/01/2000 00:26:07 active keyboard: waiting until all keys are up. key_down=50 Shift_L.  If the key is inaccessible via keyboard, consider 'x11vnc -R clear_all'
+01/01/2000 00:26:09 active keyboard: turning X autorepeat off.
+01/01/2000 00:31:12 idle keyboard:   turning X autorepeat back on.

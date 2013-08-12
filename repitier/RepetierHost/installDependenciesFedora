@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sudo yum install git curl gcc-c++ perl-Wx perl-Module-Build perl-Net-DBus perl-App-cpanminus perl-Moo
+curl -L http://cpanmin.us | perl - --sudo App::cpanminus
+sudo cpanm Boost::Geometry::Utils Math::Clipper Math::ConvexHull Math::ConvexHull::MonotoneChain Math::Geometry::Voronoi Math::PlanePath parent
+sudo usermod -a -G dialout $LOGNAME
+sudo yum install mono-devel

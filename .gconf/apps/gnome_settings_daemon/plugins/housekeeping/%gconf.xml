@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="ignore_paths" mtime="946687414" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/</stringvalue>
+		</li>
+	</entry>
+</gconf>
